@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #bf0a30;
+  background-repeat: no-repeat;
+  /*background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;*/
+
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 0.02em;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  font-size: 2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background: hsl(310deg 70% 54%);
+  background-color: rgb(255, 6, 46);
+}
+
+button:hover {
+  background: #da1a1a;
+}
+
+.container {
+  background-color: white;
+  color: #1e2432;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  margin-left: 50px;
+  visibility: hidden;
+  margin: 50px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.ciudades {
+  padding: 40px 10%;
+}
+
+#ciudad {
+  font-size: 2rem;
+  color: #717681;
+}
+
+#temperatura {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+sup {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+img {
+  width: 6rem;
+}
+
+#descripcion {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #717681;
+}
+
+.encabezado {
+  text-align: center;
+}
