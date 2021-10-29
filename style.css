@@ -15,6 +15,10 @@ h1 {
   letter-spacing: 0.02em;
 }
 
+ul {
+  list-style: none;
+}
+
 button,
 input {
   border: none;
@@ -23,15 +27,12 @@ input {
   color: white;
 }
 
-ul {
-  list-style: none;
-}
-
 input {
   font-size: 2rem;
   height: 40px;
   padding: 5px 5px 10px;
   border-bottom: 1px solid;
+  
 }
 
 button {
@@ -41,12 +42,16 @@ button {
   padding: 15px 20px;
   margin-left: 15px;
   border-radius: 5px;
-  background: hsl(310deg 70% 54%);
-  background-color: rgb(255, 6, 46);
+  border: 1px solid white;
+ /* background: hsl(310deg 70% 54%);
+  background-color: none;*/
 }
 
 button:hover {
-  background: #da1a1a;
+  background: #f7f5f5;
+  color : #bf0a30;
+  transition: 0.6s;
+  
 }
 
 .container {
