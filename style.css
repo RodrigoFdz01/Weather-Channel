@@ -10,9 +10,11 @@ body {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: lighter;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   font-size: 4rem;
   letter-spacing: 0.02em;
+  font-style: oblique;
 }
 
 ul {
